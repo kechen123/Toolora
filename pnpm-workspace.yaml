@@ -1,0 +1,4 @@
+# pnpm 11 默认的 minimumReleaseAge 会拦截刚发布的版本，
+# 这里显式记录例外项，保证 `pnpm install` 在任何机器上都能复现同一份锁文件。
+minimumReleaseAgeExclude:
+  - lucide-react@1.60.0
